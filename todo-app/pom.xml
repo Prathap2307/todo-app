@@ -13,6 +13,7 @@
 	<artifactId>todo-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>todo-app</name>
+	<packaging>pom</packaging>
 	<description>Demo for Pluralsight Course - Spring Framework: Spring Boot Actuator</description>
 
 	<properties>
@@ -95,5 +96,9 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<modules>
+        <module>Qualifier-Module1</module>
+    </modules>
 
 </project>
